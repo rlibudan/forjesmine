@@ -17,12 +17,19 @@ body {
     padding: 20px;
 }
 
+/* FIXED CARD LAYOUT */
 .card {
     width: 100%;
     max-width: 520px;
     background: white;
     border-radius: 30px;
-    padding: 45px 25px;
+    padding: 35px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     box-shadow: 0 20px 50px rgba(255, 105, 180, 0.25);
 }
 
@@ -30,19 +37,19 @@ body {
     font-size: 55px;
 }
 
-/* 💖 BIG QUESTION */
+/* BIG BUT SAFE TEXT */
 h1 {
-    font-size: 11vw;   /* 👈 ENLARGED */
+    font-size: 9vw;   /* slightly reduced so it won’t break */
     color: #ff4fa3;
     font-weight: 800;
     margin: 10px 0;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 p {
     font-size: 5vw;
     color: #666;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -87,7 +94,6 @@ button {
     text-align: center;
     width: 80%;
     max-width: 350px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     animation: pop 0.3s ease;
 }
 
@@ -96,10 +102,10 @@ button {
     to { transform: scale(1); opacity: 1; }
 }
 
-/* 💖 BIG YAYAYAY */
+/* BIG BUT SAFE POPUP TITLE */
 .popup-content h2 {
     color: #ff4fa3;
-    font-size: 14vw;  /* 👈 ENLARGED */
+    font-size: 12vw;
     margin: 0;
     font-weight: 800;
 }
@@ -117,6 +123,5 @@ button {
     background: #ff4fa3;
     color: white;
     font-size: 5vw;
-    cursor: pointer;
 }
 </style>
