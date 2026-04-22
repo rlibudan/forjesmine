@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For my baby 🎀</title>
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
@@ -37,15 +30,17 @@ body {
     font-size: 55px;
 }
 
+/* 💖 BIG QUESTION */
 h1 {
-    font-size: 7vw;
+    font-size: 11vw;   /* 👈 ENLARGED */
     color: #ff4fa3;
-    font-weight: 700;
+    font-weight: 800;
     margin: 10px 0;
+    line-height: 1.1;
 }
 
 p {
-    font-size: 4.8vw;
+    font-size: 5vw;
     color: #666;
     margin-bottom: 25px;
 }
@@ -101,9 +96,12 @@ button {
     to { transform: scale(1); opacity: 1; }
 }
 
+/* 💖 BIG YAYAYAY */
 .popup-content h2 {
     color: #ff4fa3;
-    font-size: 6vw;
+    font-size: 14vw;  /* 👈 ENLARGED */
+    margin: 0;
+    font-weight: 800;
 }
 
 .popup-content p {
@@ -122,43 +120,3 @@ button {
     cursor: pointer;
 }
 </style>
-</head>
-
-<body>
-
-<div class="card">
-    <div class="kitty">🎀🐱</div>
-
-    <h1>Pwede ba kitang ligawan?</h1>
-    <p>pili ka baby 💕</p>
-
-    <button class="yes" onclick="showPopup()">Yes 💖</button>
-    <button class="yes2" onclick="showPopup()">Yes parin 💘</button>
-</div>
-
-<!-- POPUP -->
-<div class="popup" id="popup">
-    <div class="popup-content">
-        <h2>YAYAYAY 🎀</h2>
-
-        <p>
-            starting today, nililigawan na kita 💖🐱<br><br>
-            baby parin kita syempre hmp love na kita e
-        </p>
-
-        <button class="close" onclick="closePopup()">I love you too 💖</button>
-    </div>
-</div>
-
-<script>
-function showPopup(){
-    document.getElementById("popup").style.display = "flex";
-}
-
-function closePopup(){
-    document.getElementById("popup").style.display = "none";
-}
-</script>
-
-</body>
-</html>
